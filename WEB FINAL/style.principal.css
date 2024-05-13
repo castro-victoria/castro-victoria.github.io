@@ -1,0 +1,30 @@
+body{
+    background-color: #F0DEDC;
+}
+.menu{
+    display:flex;
+    background-color: #E0A295;
+    color: #75625E;
+}
+
+.contenido{
+    background-color: #AFCDD8;
+    color: #75625E;
+    font-size: 20;
+    
+
+}
+.profesores{
+    display: flex;
+    background-color: #AFCDD8;
+    color: #75625E;
+    font-size: 18;
+    padding-top: 30px;
+    align-items: baseline;
+}
+
+.profesores img{
+    float:left;
+    width: 200;
+}
+
