@@ -1,18 +1,46 @@
 body{
     background-color: #F0DEDC;
+    font-family: sans-serif;
+    margin: 0;
 }
-.menu{
-    display:flex;
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+
+}
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
     background-color: #E0A295;
-    color: #75625E;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 50px;
+}
+@media (max-widht: 700px){
+    header{
+        flex-direction: column;
+    }
 }
 
 .contenido{
     background-color: #AFCDD8;
     color: #75625E;
     font-size: 20;
-    
-
 }
 .profesores{
     display: flex;
