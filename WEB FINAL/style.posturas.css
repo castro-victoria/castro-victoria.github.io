@@ -35,3 +35,38 @@ header{
         flex-direction: column;
     }
 }
+
+
+p{
+    color: #F0DEDC;
+    font-family: sans-serif;
+}
+h2{
+    color: black;
+    font: oblique bold 120% cursive;
+    text-align: center;
+}
+.img-left{
+    max-width: 320px;
+    float: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.img-right{
+    max-width: 320px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.postura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7F9AA5;
+}
+ol{
+    color: #75625E;
+    align-items: center;
+}
+
