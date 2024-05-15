@@ -42,7 +42,8 @@ p{
     font-family: sans-serif;
 }
 h2{
-    color: black;
+    background-color: #F0DEDC;
+    color:#75625E;
     font: oblique bold 120% cursive;
     text-align: center;
 }
