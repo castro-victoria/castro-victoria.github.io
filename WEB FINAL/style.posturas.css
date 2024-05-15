@@ -27,16 +27,18 @@ header{
     align-items: center;
 }
 .logo img{
-    height: 50px;
-    margin-right: 50px;
+    height: 100px;
+    margin-right: 100px;
+}
+#titulo{
+    color: #7F9AA5;
+    
 }
 @media (max-widht: 700px){
     header{
         flex-direction: column;
     }
 }
-
-
 p{
     color: #F0DEDC;
     font-family: sans-serif;
@@ -58,6 +60,7 @@ h2{
     float: left;
     margin-right: 100px;
     margin-left: 100px;
+    
 
 }
 .postura{
@@ -69,5 +72,7 @@ h2{
 ol{
     color: #75625E;
     align-items: center;
+    padding: 50px;
+    line-height: 1.5;
 }
 

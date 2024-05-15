@@ -27,8 +27,8 @@ header{
     align-items: center;
 }
 .logo img{
-    height: 50px;
-    margin-right: 50px;
+    height: 100px;
+    margin-right: 100px;
 }
 @media (max-widht: 700px){
     header{
