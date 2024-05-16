@@ -41,7 +41,6 @@ header{
     background-color: #F0DEDC;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .caja{
     background-color: #D9D9D9;
@@ -68,12 +67,13 @@ header{
     width: 450px;
     height: 650px;
     margin: 80px;
+    border-radius: 10px;
 }
 .carta-imagen{
-    background-color:#D9D9D9;
     height: 300px;
     margin-bottom: 50px;
     background-size: cover;
+    border-radius: 10px;
 
 }
 .car1{
@@ -81,4 +81,23 @@ header{
 }
 .car2{
     background-image: url(https://i0.wp.com/cpscba.org.ar/wp-content/uploads/2021/02/foto-de-fondo-yoga-comienzo-ano-2021.jpg?fit=1000%2C667&ssl=1);
+}
+.carta h2{
+    padding: 12px;
+}
+.carta p{
+    padding: 12px;
+}
+.carta a{
+    background-color: #E0A295;
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+ol{
+    align-items: center;
+    line-height: 1.5;
+    list-style: circle;
 }
