@@ -5,14 +5,14 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    color:#F0DEDC;
 }
 nav a{
     font-weight: 600;
     padding-right: 10px;
 }
 nav a:hover{
-    color:#F0DEDC;
+    color:#AFCDD8;
 }
 header{
     display: flex;
@@ -35,26 +35,38 @@ header{
         flex-direction: column;
     }
 }
+h2{
+    text-align: center;
+    color: #75625E;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .container{
     display: flex;
     padding: 20px;
     background-color: #F0DEDC;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 .caja{
     background-color: #D9D9D9;
-    width: 250px;
-    height: 250px;
+    flex:1;
+    border-radius: 10px;
+}
+.informacion{
     text-align: center;
-    margin: 40px;
-    border: 2px solid black;
+    text-size-adjust: 100%;
+    font-size: large;
+    color: #75625E;
 }
 .img-presencial{
+    flex:1;
     background-color:#D9D9D9;
     height: 250px;
-    margin-bottom: 50px;
-    background-size: cover;
+    object-fit: cover;
+    
 }
 
 .op{
@@ -84,19 +96,24 @@ header{
 }
 .carta h2{
     padding: 12px;
+    color:#75625E;
 }
 .carta p{
     padding: 12px;
+    color:#75625E;
+    text-align: center;
+    text-size-adjust: 100%;
+    
 }
 .carta a{
     background-color: #E0A295;
-    color: black;
     padding: 15px;
     display: block;
     text-align: center;
     margin: 30px;
 }
 ol{
+    color: #75625E;
     align-items: center;
     line-height: 1.5;
     list-style: circle;

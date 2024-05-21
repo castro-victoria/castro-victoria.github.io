@@ -5,14 +5,14 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #F0DEDC;
 }
 nav a{
     font-weight: 600;
     padding-right: 10px;
 }
 nav a:hover{
-    color:#F0DEDC;
+    color:#AFCDD8;
 }
 header{
     display: flex;
@@ -37,7 +37,6 @@ header{
 form{
     margin: 0 auto;
     width: 600px;
-    background-color:#AFCDD8;
     color:#75625E;
 
 }
