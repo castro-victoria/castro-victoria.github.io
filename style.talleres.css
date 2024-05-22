@@ -10,9 +10,15 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav a:hover{
     color:#AFCDD8;
+}
+nav i{
+    color: #F0DEDC;
 }
 header{
     display: flex;
@@ -21,6 +27,13 @@ header{
     background-color: #E0A295;
     align-items: center;
     padding: 10px;
+}
+h1{
+    color:#F0DEDC;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .logo{
     display: flex;
@@ -38,7 +51,9 @@ header{
 h2{
     text-align: center;
     color: #75625E;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .container{
     display: flex;
@@ -49,7 +64,11 @@ h2{
     align-items: center;
     
 }
-
+h3{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .caja{
     background-color: #D9D9D9;
     flex:1;
@@ -58,8 +77,12 @@ h2{
 .informacion{
     text-align: center;
     text-size-adjust: 100%;
-    font-size: large;
+    font-size:larger;
     color: #75625E;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .img-presencial{
     flex:1;
@@ -103,6 +126,10 @@ h2{
     color:#75625E;
     text-align: center;
     text-size-adjust: 100%;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
     
 }
 .carta a{
@@ -117,4 +144,8 @@ ol{
     align-items: center;
     line-height: 1.5;
     list-style: circle;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:larger;
 }

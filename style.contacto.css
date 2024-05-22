@@ -10,9 +10,15 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav a:hover{
     color:#AFCDD8;
+}
+nav i{
+    color: #F0DEDC;
 }
 header{
     display: flex;
@@ -21,6 +27,13 @@ header{
     background-color: #E0A295;
     align-items: center;
     padding: 10px;
+}
+h1{
+    color:#F0DEDC;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .logo{
     display: flex;
@@ -33,6 +46,9 @@ header{
 .contacto{
     color: #75625E;
     text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 form{
     margin: 0 auto;
@@ -49,14 +65,25 @@ input{
 
 }
 label{
-    font-size: large;
-    text-align:center;
+    font-size:larger;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-#boton{
-    width: 100px;
-    height: 30;
+select{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #75625E;
+}
+button{
+    width: 150px;
+    height: 100;
     color:#75625E;
-    text-align:center;
     border-style: solid;
     border-color: #E0A295;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }

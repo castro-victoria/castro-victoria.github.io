@@ -10,9 +10,15 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav a:hover{
     color:#AFCDD8;
+}
+nav i{
+    color: #F0DEDC;
 }
 header{
     display: flex;
@@ -21,6 +27,13 @@ header{
     background-color: #E0A295;
     align-items: center;
     padding: 10px;
+}
+h1{
+    color:#F0DEDC;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .logo{
     display: flex;
@@ -46,7 +59,10 @@ p{
 h2{
     background-color: #F0DEDC;
     color:#75625E;
-    font: oblique bold 120% cursive;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:large;
     text-align: center;
 }
 .img-left{
@@ -74,5 +90,9 @@ ol{
     align-items: center;
     padding: 50px;
     line-height: 1.5;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
 }
 

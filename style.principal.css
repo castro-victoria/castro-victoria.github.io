@@ -10,10 +10,16 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 nav a:hover{
     color:#AFCDD8 ;
 
+}
+nav i{
+    color: #F0DEDC;
 }
 header{
     display: flex;
@@ -22,6 +28,13 @@ header{
     background-color: #E0A295;
     align-items: center;
     padding: 10px;
+}
+
+h1{
+    color:#F0DEDC;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .logo{
     display: flex;
@@ -40,11 +53,27 @@ header{
 .contenido{
     background-color: #AFCDD8;
     color: #75625E;
-    font-size: 20;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:large;
+    text-align: center;
+    
 }
+.contenido h3{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .profesores{
     display: flex;
     justify-content: center;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #75625E;
+    font-size: large;
 }
 .profe{
     background-color:#AFCDD8;
@@ -52,6 +81,7 @@ header{
     height: 600px;
     margin: 80px;
     border-radius: 10px;
+    
 }
 .profe-img{
     height: 300px;
@@ -62,12 +92,18 @@ header{
     background-image: url(./imagenes/profe1.png);
 
 }
+
 .p2{
     background-image: url(./imagenes/profe2.png);
 
 }
 .profe h2{
     padding: 12px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size:25px;
 }
 .profe p{
     padding: 12px;
