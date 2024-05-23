@@ -45,7 +45,7 @@ h1{
     height: 100px;
     margin-right: 100px;
 }
-.carousel {
+.carrousel {
     position: relative;
     width: 1000px;
     height: 400px;
@@ -102,7 +102,6 @@ h1{
 .boton-left {
     left: 10px;
 }
-
 .boton-right {
     right: 10px;
 }
