@@ -28,15 +28,16 @@
                 <a href="contacto.html">Contacto</a>
             </nav>
         </header>
-        <h2 class="contacto">Contáctate con nosotros!</h2> 
+ 
         <form onsubmit="return validar()">
-            <fieldset>
+            <fieldset class="field">
+                <legend>Contáctate con nosotros!</legend>
                 <label for="Nombre">Nombre/s *</label><br>
-                <input type="text" placeholder="Su nombre..."><br><br>
+                <input type="text" placeholder="Su nombre..." required autofocus><br><br>
                 <label for="Apellido">Apellido/s *</label><br>
-                <input type="text" placeholder="Su apellido..."><br><br>
+                <input type="text" placeholder="Su apellido..." required> <br><br>
                 <label>E-mail *</label><br>
-                <input type="" placeholder=".......@..... .com"><br><br>
+                <input type="" placeholder=".......@......com" required><br><br>
                 <label>Número de celular</label><br>
                 <input type="tel" placeholder="caracteristica - numero telefonico"><br><br>
                 <label for="motivo">Seleccione el motivo</label>
@@ -46,7 +47,7 @@
                 <option>Talleres </option>
             </select><br>
             <p>Déjanos un mensaje y detalles sobre tu consulta</p>
-            <textarea name="mensaje" rows="10" cols="70" placeholder="Escriba algo aquí..."></textarea>
+            <textarea name="mensaje" rows="10" cols="50" placeholder="Escriba algo aquí..."></textarea>
             <button type="button" onclick="alert('Mensaje enviado! Pronto nos contacteremos contigo')">ENVIAR</button>
 
             </fieldset>

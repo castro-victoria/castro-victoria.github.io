@@ -43,38 +43,52 @@ h1{
     height: 100px;
     margin-right: 100px;
 }
-.contacto{
+legend{
     color: #75625E;
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 form{
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
     color:#75625E;
-
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.field{
+    border-radius: 20px;
+    width: 100%;
+    border-color: #AFCDD8;
+    
 }
 
 input{
-    width: 400px;
+    width: 100%;
     padding: 5px;
     color:#75625E;
+    outline-color: #AFCDD8;
     border-color: #E0A295;
+    border-radius: 10px;
+    text-align: center;
 
 }
+
 label{
     font-size:larger;
     font-family: "Abel", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal;   
 }
 select{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #75625E;
+    
 }
 button{
     width: 150px;
@@ -86,4 +100,7 @@ button{
     font-weight: 400;
     font-style: normal;
     
+}
+button:hover{
+    background-color:#AFCDD8
 }
