@@ -49,6 +49,7 @@ legend{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size:x-large;
 }
 
 form{
@@ -74,14 +75,20 @@ input{
     border-color: #E0A295;
     border-radius: 10px;
     text-align: center;
-
+    font-size: large;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 label{
+    text-align: center;
+    width: 100%;
     font-size:larger;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;   
+    
 }
 select{
     font-family: "Poetsen One", sans-serif;
@@ -89,6 +96,14 @@ select{
     font-style: normal;
     color: #75625E;
     
+}
+textarea{
+    border-radius: 10px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    outline-color: #AFCDD8;
+    font-size: large;
 }
 button{
     width: 150px;
@@ -99,6 +114,7 @@ button{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size:medium;
     
 }
 button:hover{
