@@ -79,11 +79,13 @@ h2{
     
 
 }
+
 .postura{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #7F9AA5;
+    
 }
 ol{
     color: #75625E;

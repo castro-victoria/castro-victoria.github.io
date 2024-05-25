@@ -40,3 +40,14 @@ function moverLeft() {
     lado.style.transition = "all ease .6s";
 
 }  
+
+function mouseover(x){
+    x.style.height = "100%";
+    x.style.width = "100%";
+}
+
+function normal(x){
+    x.style.height = "90%";
+    x.style.width = "90%";
+
+}
