@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Poetsen+One&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c0c38118ea.js" crossorigin="anonymous"></script>
+        <script src="contacto.js"></script>
     </head>
     <link rel="stylesheet" href="style.contacto.css">
     <body>
@@ -29,17 +30,17 @@
             </nav>
         </header>
  
-        <form onsubmit="return validar()">
-            <fieldset class="field">
+        <form name="form" onsubmit="validar()">
+            <fieldset class="field" >
                 <legend>Contáctate con nosotros!</legend>
                 <label for="Nombre">Nombre/s *</label><br>
-                <input type="text" onfocus="this.value=''" value="Su nombre" required autofocus><br><br>
+                <input id="nombre" type="text" onfocus="this.value=''" value="Su nombre/s" required><br><br>
                 <label for="Apellido">Apellido/s *</label><br>
-                <input type="text" onfocus="this.value=''" value="Su apellido" required> <br><br>
+                <input id="apellido" type="text" onfocus="this.value=''" value="Su apellido/s" required> <br><br>
                 <label>E-mail *</label><br>
-                <input type="" onfocus="this.value=''" value="ejemplo@gmail.com" required><br><br>
+                <input id="email" type="" onfocus="this.value=''" value="ejemplo@gmail.com" required><br><br>
                 <label>Número de celular</label><br>
-                <input type="tel" onfocus="this.value=''" value="Ej: 266-4678534"><br><br>
+                <input id="celular" type="tel" onfocus="this.value=''" value="Ej: 266-4678534"><br><br>
                 <label for="motivo">Seleccione el motivo</label>
             <select >
                 <option>Clases Presenciales</option>
@@ -48,7 +49,7 @@
             </select><br>
             <p>Déjanos un mensaje y detalles sobre tu consulta</p>
             <textarea name="mensaje" rows="10" cols="50" placeholder="Escriba algo aquí..."></textarea>
-            <button type="button" onclick="alert('Mensaje enviado! Pronto nos contacteremos contigo')">ENVIAR</button>
+            <input type="submit" if="boton" value="Enviar">
 
             </fieldset>
             
