@@ -9,11 +9,6 @@ const form = document.getElementById("form");
 
 function validar(){
     
-    if ( form == ""){
-
-        alert("Debe completar el formulario para enviarlo");
-        return false;
-
-    }
+    
 
 }
