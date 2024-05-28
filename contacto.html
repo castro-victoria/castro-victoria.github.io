@@ -30,30 +30,34 @@
             </nav>
         </header>
  
-        <form name="form" onsubmit="validar()">
+        <form onsubmit="return validar()">
             <fieldset class="field" >
                 <legend>Contáctate con nosotros!</legend>
                 <label for="Nombre">Nombre/s *</label><br>
                 <input id="nombre" type="text" onfocus="this.value=''" value="Su nombre/s" required><br><br>
+
                 <label for="Apellido">Apellido/s *</label><br>
-                <input id="apellido" type="text" onfocus="this.value=''" value="Su apellido/s" required> <br><br>
+                <input id="apellido" type="text" onfocus="this.value=''" value="Su apellido/s" required><br><br>
+
                 <label>E-mail *</label><br>
                 <input id="email" type="" onfocus="this.value=''" value="ejemplo@gmail.com" required><br><br>
+
                 <label>Número de celular</label><br>
                 <input id="celular" type="tel" onfocus="this.value=''" value="Ej: 266-4678534"><br><br>
+
                 <label for="motivo">Seleccione el motivo</label>
-            <select >
+            <select id="opcion">
                 <option>Clases Presenciales</option>
                 <option>Clases virtuales</option>
                 <option>Talleres </option>
             </select><br>
             <p>Déjanos un mensaje y detalles sobre tu consulta</p>
-            <textarea name="mensaje" rows="10" cols="50" placeholder="Escriba algo aquí..."></textarea>
-            <input type="submit" id="boton" value="Enviar">
+            <textarea id="mensaje" rows="10" cols="50" placeholder="Escriba algo aquí..."></textarea>
+            <button type="submit">Enviar</button>
 
             </fieldset>
-            
         </form>
-        
+        <ul id="listaErrores"></ul>
+        <ol id="listaMensajes"></ol>
     </body>
 </html>
