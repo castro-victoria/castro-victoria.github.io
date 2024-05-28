@@ -32,66 +32,45 @@
         </header>
 
 <br>
-        <div class="carrousel">
-            <div class="carruseles" id="lado">
-                <section class="lado-section">
-                    <img src="imagenes/1c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/2c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/3c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/4c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/5c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/6c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/7c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/8c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/9c.jpg">
-                </section>
-                <section class="lado-section">
-                    <img src="imagenes/10c.jpg">
-                </section>
-            </div>
-            <div class="boton-left"><i class='bx bx-chevron-left'></i></div>
-            <div class="boton-right"><i class='bx bx-chevron-right'></i></div>
+        <div id="carrusel">
+            <img id="fotos" src="imagenes/1c.jpg"> </img>
         </div>
+        <br>
+        <form method="post" name="cambiar">
     
-        <script src="principal.js"></script>
-
+            <button type="button" value="Anterior" onclick="prev();">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            
+            <button type="button" value="Siguiente "  onclick="next();">
+                <i class="fa-solid fa-arrow-right" ></i>
+            </button>
+        </form>
+    
+        <script type="text/javascript" src="principal.js"></script>
 
         <div class="contenido">
             
-            <div class="quees"  onmouseover="mouseover(this)" onmouseout="normal(this)">
+            <div class="quees">
                 <h3> ¿Qué es el yoga?</h3>
-                <p>El yoga es una práctica que conecta el cuerpo, 
+                <p>
+                    <strong>yoga es una práctica que conecta el cuerpo, 
                     la respiración y la mente. Esta práctica utiliza 
                     posturas físicas, ejercicios de respiración y 
                     meditación para mejorar la salud general. 
                     Durante una sesión de yoga, que suelen durar entre una 
                     hora y una hora y media, se practican diferentes asanas o 
                     posturas armonizadas con la respiración, beneficiosas 
-                    tanto para el cuerpo como para la mente.
+                    tanto para el cuerpo como para la mente.</strong> 
                 </p>
             </div>
-            <div class="beneficios" onmouseover="mouseover(this)" onmouseout="normal(this)">
+            <br>
+            <div class="beneficios">
                 <h3>¿Qué beneficios tiene?</h3>
-                <p>El yoga puede mejorar el nivel general de su estado físico y 
-                mejorar su postura, su flexibilidad, reducir su presión arterial y 
-                su frecuencia cardíaca, ayudarle a relajarse, reducir el estrés, mejorar su coordinación
-                mejorar su concentración,ayudarle a dormir mejor, ayudar a la digestión entre otros innumerables beneficio
+                <p><strong>yoga puede mejorar el nivel general de su estado físico y 
+                    mejorar su postura, su flexibilidad, reducir su presión arterial y 
+                    su frecuencia cardíaca, ayudarle a relajarse, reducir el estrés, mejorar su coordinación
+                    mejorar su concentración,ayudarle a dormir mejor, ayudar a la digestión entre otros innumerables beneficio</strong> 
             </p>
             </div>
             
@@ -117,5 +96,6 @@
             </div>
         </div>
         <script src="principal.js"></script>
+        
     </body>
 </html>

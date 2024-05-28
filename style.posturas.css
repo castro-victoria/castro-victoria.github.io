@@ -1,7 +1,8 @@
 body{
-    background-color: #AFCDD8;
     font-family: sans-serif;
     margin: 0;
+    background-image: url('imagenes/fondo2.jpeg');
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -84,8 +85,8 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7F9AA5;
     
+ 
 }
 ol{
     color: #75625E;

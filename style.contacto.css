@@ -1,7 +1,8 @@
 body{
-    background-color: #F0DEDC;
     font-family: sans-serif;
     margin: 0;
+    background-image: url('imagenes/fondo2.jpeg');
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -59,11 +60,12 @@ form{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    
 }
 .field{
     border-radius: 20px;
     width: 100%;
-    border-color: #AFCDD8;
+    border-color:transparent;
     
 }
 

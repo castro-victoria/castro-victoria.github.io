@@ -1,8 +1,12 @@
 body{
-    background-color: #F0DEDC;
+    
     font-family: sans-serif;
     margin: 0;
+    background-image: url('imagenes/fondo2.jpeg');
+    background-size: cover;
 }
+
+
 a{
     text-decoration: none;
     color:#F0DEDC;
@@ -29,13 +33,12 @@ header{
     align-items: center;
     padding: 10px;
 }
-
 h1{
     color:#F0DEDC;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+   
 }
 .logo{
     display: flex;
@@ -45,65 +48,29 @@ h1{
     height: 100px;
     margin-right: 100px;
 }
-.carrousel {
+
+#carrusel{
+    width: 45%;
+    height:45%;
     position: relative;
-    width: 1000px;
-    height: 400px;
-    background-color: #e0e0e0;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
-    border-radius: 15px;
-    overflow: hidden;
-  
+    left: 25%; 
+    border-style: none;
 }
 
-.carruseles {
-    width: 1000%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+#fotos {
+    border-radius: 30px;
+    width:100%;
+    height:100%
 
 }
-
-.lado-section {
-    width: calc(100% / 10);
-    height: 100%;
-}
-
-.lado-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.boton-left,
-.boton-right {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    font-size: 1.5rem;
-    background-color: transparent;
-    border-radius: 50%;
-    padding: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    color: #ffffff81;
-    transform: translate(0,-50%);
-    transition: .5s ease;
-    user-select: none;
-}
-
-.boton-left:hover,
-.boton-right:hover {
-    background-color: #333333d4;
-    color: #fff;
-}
-
-.boton-left {
-    left: 10px;
-}
-.boton-right {
-    right: 10px;
+button{
+    color: #75625E;
+    background-color: #AFCDD8;
+    border-radius: 10px;
+    border-style: none;
+    position: relative; 
+    left: 45%
+    
 }
 
 
@@ -114,15 +81,17 @@ h1{
 }
 
 .contenido{
-    background-color: #AFCDD8;
+    background-color:#AFCDD8;
     color: #75625E;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size:large;
     text-align:center;
+    opacity: 0.7;
     
 }
+
 .contenido h3{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -144,6 +113,7 @@ h1{
     height: 600px;
     margin: 80px;
     border-radius: 10px;
+    opacity: 0.9;
     
 }
 .profe-img{
