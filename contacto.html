@@ -34,17 +34,29 @@
             
                 <legend>Contáctate con nosotros!</legend>
                 <label for="nombre">Nombre/s *</label><br>
+                <input id="nombre" type="text" onfocus="this.value=''" value="Su nombre/s" required><br><br>
+                <label for="nombre">Nombre/s *</label><br>
                 <input id="nombre" type="text" placeholder="nombre" ><br><br>
 
+                <label for="apellido">Apellido/s *</label><br>
+                <input id="apellido" type="text" onfocus="this.value=''" value="Su apellido/s" required><br><br>
                 <label for="apellido">Apellido/s *</label><br>
                 <input id="apellido" type="text" placeholder="ape"><br><br>
 
                 <label for="email">E-mail *</label><br>
+                <label for="email">E-mail *</label><br>
                 <input id="email" type="" onfocus="this.value=''" value="ejemplo@gmail.com" required><br><br>
 
                 <label for="celular">Número de celular</label><br>
+                <input id="celular" type="tel" onfocus="this.value=''" value="Ej: 266-4678534"><br><br>
+                <label for="celular">Número de celular</label><br>
                 <input id="celular" type="number" placeholder="Ej: "><br><br>
 
+                <label for="motivo">Seleccione el motivo</label>
+            <select id="motivo">
+                <option>Clases Presenciales</option>
+                <option>Clases virtuales</option>
+                <option>Talleres </option>
                 <label for="opcion">Seleccione el motivo: </label>
             <select id="opcion">
                 <option value="" disabled selected>Selecciona una opción</option>
@@ -59,7 +71,11 @@
             <input type=“submit” onclick="return validar()" value=“Enviar”>
 
         </form>
+
+        <p id="pSaludo"></p>
+
         <ul id="listaErrores"></ul>
+
         <ol id="listaMensajes"></ol>
 
 
