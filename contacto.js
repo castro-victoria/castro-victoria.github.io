@@ -4,17 +4,18 @@ let nom = document.getElementById("nombre");
 let apellido = document.getElementById("apellido");
 let email = document.getElementById("email");
 let cel = document.getElementById("celular");
-//let opcion = document.getElementById("opcion");
+let opcion = document.getElementById("opcion");
 //let text = document.getElementById("mensaje")
-let lerr = document.getElementById("listaErrores");
+var lerr = document.getElementById("listaErrores");
 let lmen = document.getElementById("listaMensajes");
 
-
+let errores = [];
 
 
 function validar(){
+    
     lerr.innerHTML = "";
-    nom.classList.remove("error");
+    //nom.classList.remove("error");
     //nom.classList.remove("error");
     //apellido.classList.remove("error");
     //email.classList.remove("error");
@@ -22,32 +23,35 @@ function validar(){
     //opcion.classList.remove("error");
     //text.classList.remove("error");
 
-    let errores = [];
+    
 
     let nbre = nom.value.trim();
-    if(nbre.lenght == 0){
+    
+    if(nbre.length == 0){
+        
         errores.push("Falta ingresar el nombre");
         nom.classList.add("Error");
-    } else if(nbre.lenght > 10){
-        errores.push("Nombre muy largo (10 carcteres)");
+        
+    } else if(nbre.length > 20){
+        errores.push("Nombre muy largo (20 carcteres)");
         nom.classList.add("Error");
+        
     }
 
     let apel = apellido.value.trim();
-    if(apel.lenght == 0){
+    if(apel.length == 0){
         errores.push("Falta ingresar el apellido");
         apellido.classList.add("Error");
-    } else if(apel.lenght > 10){
-        errores.push("Nombre muy largo (10 carcteres)");
+                
+    } else if(apel.length > 20){
+        errores.push("Nombre muy largo (20 carcteres)");
         apellido.classList.add("Error");
+        
     }
 
     let exre_cel = /^[1-9]\d{9}$/;
-    if(cel.value.length > 10) {
-        errores.push("Teléfono muy largo (10 dígitos)");
-        cel.classList.add("error");
-       }
-       if(cel.value.length > 0 && !exre_cel.test(cel.value)){
+    
+    if(cel.value.length > 0 && !exre_cel.test(cel.value)){
         errores.push("Teléfono inválido (10 dígitos, no puede empezar con cero)");
         cel.classList.add("Error");
     }
@@ -57,25 +61,28 @@ function validar(){
         errores.push("Email muy largo (25 dígitos)");
         email.classList.add("Error");
        }
-       if(email.value.length > 0 && !exre_email.test(email.value)){
+    if(email.value.length > 0 && !exre_email.test(email.value)){
         errores.push("Email inválido (25 dígitos, no puede empezar con cero)");
         email.classList.add("Error");
     }
 
+    if(opcion.value == ""){
+        errores.push("Debe seleccionar una opcion")
+        opcion.classList.add("Error");
+    }
 
-
-
-
-
+    
     
     for(let err of errores){
         let li = document.createElement("li");
         li.innerHTML = err;
         lerr.appendChild(li);
     }
-    if(errores.lenght == 0){
+    if(errores.length == 0){
+        console.log("hola");
         let li = document.createElement("li");
-        li.innerHTML = 'El formulario se envió exitosamente. Aguarde a su respuesta. Atte: Yoga Studio.'
+        li.innerHTML = "El formulario se envió exitosamente. Aguarde a su respuesta. Atte: Yoga Studio.";
+        //alert("hola");
         lmen.appendChild(li);
         document.forms[0].reset();
         return false;
@@ -84,5 +91,12 @@ function validar(){
     }
 
 
+
+}
+
+function erroresf(){
+    for(let err of errores){
+        console.log(err);
+    }
 
 }
