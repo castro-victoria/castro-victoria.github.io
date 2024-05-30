@@ -9,7 +9,7 @@ a{
     color: #F0DEDC;
 }
 nav a{
-    font-weight: 600;
+
     padding-right: 10px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -29,6 +29,13 @@ header{
     align-items: center;
     padding: 10px;
 }
+
+@media (max-widht: 700px){
+    header{
+        flex-direction: column;
+    }
+}
+
 h1{
     color:#F0DEDC;
     font-family: "Poetsen One", sans-serif;
@@ -62,12 +69,7 @@ form{
     padding: 5px;
     
 }
-.field{
-    border-radius: 20px;
-    width: 100%;
-    border-color:transparent;
-    
-}
+
 
 input{
     width: 100%;
@@ -107,9 +109,8 @@ textarea{
     outline-color: #AFCDD8;
     font-size: large;
 }
-button{
-    width: 150px;
-    height: 100;
+#boton{
+    width: 100%;
     color:#75625E;
     border-style: solid;
     border-color: #E0A295;
@@ -121,4 +122,10 @@ button{
 }
 button:hover{
     background-color:#AFCDD8
+}
+
+.error{
+    border-color: red;
+    background-color: #ffe6e6;
+    
 }
