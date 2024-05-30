@@ -41,7 +41,6 @@ h1{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
 }
 .logo{
     display: flex;
@@ -59,7 +58,6 @@ legend{
     font-style: normal;
     font-size:x-large;
 }
-
 form{
     margin: 0 auto;
     width: 400px;
@@ -67,10 +65,7 @@ form{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    
 }
-
-
 input{
     width: 100%;
     padding: 5px;
@@ -84,7 +79,6 @@ input{
     font-weight: 400;
     font-style: normal;
 }
-
 label{
     text-align: center;
     width: 100%;
@@ -92,14 +86,12 @@ label{
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;   
-    
 }
 select{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #75625E;
-    
 }
 textarea{
     border-radius: 10px;
@@ -118,14 +110,11 @@ textarea{
     font-weight: 400;
     font-style: normal;
     font-size:medium;
-    
 }
 button:hover{
     background-color:#AFCDD8
 }
-
 .error{
     border-color: red;
     background-color: #ffe6e6;
-    
 }

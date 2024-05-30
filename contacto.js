@@ -1,5 +1,3 @@
-
-
 let nom = document.getElementById("nombre");
 let apellido = document.getElementById("apellido");
 let email = document.getElementById("email");
@@ -9,7 +7,6 @@ let text = document.getElementById("mensaje");
 let lerr = document.getElementById("listaErrores");
 let lmen = document.getElementById("listaMensajes");
 
-
 function validar(){
     lerr.innerHTML = "";
     nom.classList.remove('error')
@@ -18,7 +15,6 @@ function validar(){
     cel.classList.remove('error');
     opcion.classList.remove('error');
     text.classList.remove('error');
-
     let errores = [];
 
     let nbre = nom.value.trim();
@@ -99,5 +95,4 @@ function validar(){
         document.forms[0].reset();
         return false;
     }
-
 }

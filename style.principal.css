@@ -1,18 +1,14 @@
 body{
-    
     font-family: sans-serif;
     margin: 0;
     background-image: url('imagenes/fondo2.jpeg');
     background-size: cover;
 }
-
-
 a{
     text-decoration: none;
     color:#F0DEDC;
 }
 nav a{
-    
     padding-right: 10px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -20,7 +16,6 @@ nav a{
 }
 nav a:hover{
     color:#AFCDD8 ;
-
 }
 nav i{
     color: #F0DEDC;
@@ -38,7 +33,6 @@ h1{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-   
 }
 .logo{
     display: flex;
@@ -48,7 +42,6 @@ h1{
     height: 100px;
     margin-right: 100px;
 }
-
 #carrusel{
     width: 45%;
     height:45%;
@@ -56,12 +49,10 @@ h1{
     left: 25%; 
     border-style: none;
 }
-
 #fotos {
     border-radius: 30px;
     width:100%;
     height:100%
-
 }
 button{
     color: #75625E;
@@ -70,16 +61,12 @@ button{
     border-style: none;
     position: relative; 
     left: 45%
-    
 }
-
-
 @media (max-widht: 700px){
     header{
         flex-direction: column;
     }
 }
-
 .contenido{
     background-color:#AFCDD8;
     color: #75625E;
@@ -89,15 +76,12 @@ button{
     font-size:large;
     text-align:center;
     opacity: 0.7;
-    
 }
-
 .contenido h3{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 .profesores{
     display: flex;
     justify-content: center;
@@ -114,7 +98,6 @@ button{
     margin: 80px;
     border-radius: 10px;
     opacity: 0.9;
-    
 }
 .profe-img{
     height: 300px;
@@ -123,12 +106,9 @@ button{
 }
 .p1{
     background-image: url(./imagenes/profe1.png);
-
 }
-
 .p2{
     background-image: url(./imagenes/profe2.png);
-
 }
 .profe h2{
     padding: 12px;
@@ -141,4 +121,3 @@ button{
 .profe p{
     padding: 12px;
 }
-

@@ -77,16 +77,11 @@ h2{
     float: left;
     margin-right: 100px;
     margin-left: 100px;
-    
-
 }
-
 .postura{
     display: flex;
     justify-content: center;
     align-items: center;
-    
- 
 }
 ol{
     color: #75625E;
@@ -98,4 +93,3 @@ ol{
     font-style: normal;
     font-size: large;
 }
-

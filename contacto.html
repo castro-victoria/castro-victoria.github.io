@@ -8,8 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Poetsen+One&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/c0c38118ea.js" crossorigin="anonymous"></script>
-        
+        <script src="https://kit.fontawesome.com/c0c38118ea.js" crossorigin="anonymous"></script> 
     </head>
     <link rel="stylesheet" href="style.contacto.css">
     <body>
@@ -29,24 +28,17 @@
                 <a href="contacto.html">Contacto</a>
             </nav>
         </header>
- 
         <form>
-            
                 <legend>Contáctate con nosotros!</legend>
                 <label for="nombre">Nombre/s *</label><br>
                 <input id="nombre" type="text" placeholder="Su nombre" ><br><br>
-
                 <label for="apellido">Apellido/s *</label><br>
                 <input id="apellido" type="text" placeholder="Su apellido"><br><br>
-
                 <label for="email">E-mail *</label><br>
                 <input id="email" placeholder="Ej: ejemplo@gmail.com"><br><br>
-
                 <label for="celular">Número de celular *</label><br>
                 <input id="celular" placeholder="Ej:266-4879654 "><br><br>
-
                 <label for="opcion">Seleccione el motivo: </label>
-
             <select id="opcion">
                 <option value="" disabled selected>Selecciona una opción</option>
                 <option value="clasesP">Clases Presenciales</option>
@@ -55,15 +47,10 @@
             </select><br>
             <p>Déjanos tu consulta: </p>
             <textarea id="mensaje" rows="10" cols="50" placeholder="Escriba algo aquí..."></textarea>
-            
             <input id="boton" type=“submit” onclick="return validar()" value= "ENVIAR">
-
         </form>
-
         <ul id="listaErrores"></ul>
         <ol id="listaMensajes"></ol>
-
         <script src="contacto.js"></script>
-
     </body>
 </html>
